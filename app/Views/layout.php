@@ -8,13 +8,14 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            color: #1f2937;
+            background: #f7f8f2;
+            color: #243b2f;
         }
 
         nav {
-            background: #1d4ed8;
+            background: #006b3f;
             padding: 16px;
+            border-bottom: 5px solid #f5b335;
         }
 
         nav a {
@@ -24,13 +25,22 @@
             font-weight: bold;
         }
 
+        nav a:hover {
+            color: #f5b335;
+        }
+
         .container {
             max-width: 900px;
             margin: 40px auto;
             background: white;
             padding: 30px;
             border-radius: 10px;
+            border-top: 6px solid #f5b335;
             box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #006b3f;
         }
 
         table {
@@ -41,18 +51,20 @@
         th, td {
             padding: 12px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #d9dfd5;
         }
 
         th {
-            background: #eff6ff;
+            background: #e8f1e9;
+            color: #006b3f;
         }
 
         .badge {
-            background: #dbeafe;
-            color: #1e40af;
+            background: #f5b335;
+            color: #1f3d2b;
             padding: 5px 10px;
             border-radius: 20px;
+            font-weight: bold;
             text-transform: capitalize;
         }
     </style>
